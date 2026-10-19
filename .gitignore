@@ -1,0 +1,12 @@
+# Ignorar arquivos de front-end (HTML/CSS/JS)
+# ATENÇÃO: Ignorar esses arquivos fará com que não sejam incluídos no repositório quando você subir commits locais.
+# Ajuste conforme necessário.
+
+# HTML
+*.html
+
+# CSS
+*.css
+
+# JavaScript
+*.js
