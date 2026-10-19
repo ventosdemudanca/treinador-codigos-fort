@@ -1,12 +1,22 @@
-# Ignorar arquivos de front-end (HTML/CSS/JS)
-# ATENÇÃO: Ignorar esses arquivos fará com que não sejam incluídos no repositório quando você subir commits locais.
-# Ajuste conforme necessário.
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
-# HTML
-*.html
+# Node / dependências
+node_modules/
 
-# CSS
-*.css
+# Build / saída
+dist/
+build/
+coverage/
 
-# JavaScript
-*.js
+# Ambiente
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
